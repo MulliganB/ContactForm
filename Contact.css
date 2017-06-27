@@ -1,0 +1,126 @@
+div.contact {
+  margin-top: 2%;
+  margin-left: 7%;
+  height: 300px;
+  width: 830px;
+  background: #e5e5e5;
+  color: #191919;
+  box-shadow: -1px 1px 5px 1px #4c4c4c;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  opacity: 0.7;
+}
+
+div.contact div.call {
+  width: 50%;
+  height: 75%;
+  border-right: solid 1px #cccccc;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 35px;
+  line-height: 60px;
+}
+
+div.contact div.call h1 {
+  margin-left: 15px;
+  font-size: 40px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+div.contact div.call p {
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+div.contact div.form {
+  width: 50%;
+  height: 95%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+div.contact div.form div.name {
+  margin-top: 5px;
+  height: 44.4px;
+}
+
+div.contact div.form div.name input {
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  text-indent: 7px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  box-shadow: -4px 6px 5px 0px #cccccc;
+}
+
+div.contact div.form div.name input.first {
+  width: 150px;
+}
+
+div.contact div.form div.name input.last {
+  margin-left: 5px;
+  width: 200px;
+}
+
+div.contact div.form div.message {
+  margin-top: 5px;
+  height: 44.4px;
+}
+
+div.contact div.form div.message textarea {
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  text-indent: 7px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  box-shadow: -4px 6px 5px 0px #cccccc;
+  width: 355px;
+}
+
+div.contact div.form div.subject {
+  margin-top: 5px;
+  height: 44.4px;
+}
+
+div.contact div.form div.subject input {
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  text-indent: 7px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  box-shadow: -4px 6px 5px 0px #cccccc;
+  width: 355px;
+}
+
+div.contact div.form div.action {
+  margin-top: 70px;
+  width: 200px;
+}
+
+div.contact div.form div.action input {
+  width: 355px;
+  height: 40px;
+  border-radius: 5px;
+  background: #191919;
+  color: #e5e5e5;
+  border: none;
+}
+
+div.contact div.form div.action input:hover {
+  background: #323232;
+}

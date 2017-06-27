@@ -1,0 +1,24 @@
+//output: Contact.html
+html
+  head
+    link(href="./Contact.css", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link( rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+    link(href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet")
+  body
+    div.contact
+      div.call
+        h1 Want to hire me?
+        p Send me a message.
+      div.form
+        form(name="contact_form", method="contact")
+          div.name
+            input.first(type="text", name="nameFirst", placeholder="First Name")
+            input.last(type="text", name="nameLast", placeholder="Last Name")
+          div.subject
+            input.subject(type="text", name="subject", placeholder="Subject")
+          div.message
+            textarea(rows=4, placeholder="Enter your message here...")
+          div.action
+            input(type="submit", value="SUBMIT")

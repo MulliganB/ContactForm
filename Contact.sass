@@ -1,0 +1,99 @@
+@mixin input
+  float: left
+  margin-top: 2px
+  margin-bottom: 5px
+  padding-top: 2.5px
+  padding-bottom: 2.5px
+  text-indent: 7px
+  border: none
+  border-radius: 5px
+  resize: none
+  box-shadow: -4px 6px 5px 0px rgba(204,204,204,1)
+
+@mixin fullInput
+  float: right
+  padding-top: 2.5px
+  padding-bottom: 2.5px
+  width: 250px
+  margin-left: 5px
+  padding-left: 0
+
+@mixin setup
+  margin-top: 5px
+  height: 44.4px
+
+@mixin button
+  height: 25px
+  width: 65px
+  margin-bottom: 5px
+  background: #323232
+  color: #e5e5e5
+  border: none
+  border-radius: 5px
+  box-shadow: -5px 3px 6px 1px rgba(0,0,0,0.75)
+  
+div.contact
+  margin-top: 2%
+  margin-left: 7%
+  height: 300px
+  width: 830px
+  background: #e5e5e5
+  color: #191919
+  box-shadow: -1px 1px 5px 1px rgba(76,76,76,1)
+  border-radius: 20px
+  display: flex
+  flex-direction: row
+  opacity: 0.7
+  div.call
+    width: 50%
+    height: 75%
+    border-right: solid 1px #cccccc
+    margin-left: 20px
+    margin-right: 10px
+    margin-top: 35px
+    line-height: 60px
+    h1
+      margin-left: 15px
+      font-size: 40px
+      font-family: 'Titillium Web', sans-serif
+    p
+      margin-left: 15px
+      font-size: 20px
+      font-family: 'Titillium Web', sans-serif
+  div.form
+    width: 50%
+    height: 95%
+    margin-left: 10px
+    margin-right: 10px
+    margin-top: 15px
+    div.name
+      @include setup
+      input
+        @include input
+      input.first
+        width: 150px
+      input.last
+        margin-left: 5px
+        width: 200px
+    div.message
+      @include setup
+      textarea
+        @include input
+        width: 355px
+    div.subject
+      @include setup
+      input
+        @include input
+        width: 355px
+    div.action
+      margin-top: 70px
+      width: 200px
+      input
+        width: 355px
+        height: 40px
+        border-radius: 5px
+        background: #191919
+        color: #e5e5e5
+        border: none
+      input:hover
+        background: #323232
